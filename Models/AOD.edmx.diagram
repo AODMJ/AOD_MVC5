@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b7b766cb83874c828a6b28796ac71683" Name="Diagram1">
+        <EntityTypeShape EntityType="aodModel.auto_category" Width="1.5" PointX="4.5" PointY="46.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.auto_make" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.auto_model" Width="1.5" PointX="6.75" PointY="46" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.auto_package" Width="1.5" PointX="9" PointY="46.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.auto_package_custom_part_xref" Width="1.5" PointX="12" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.auto_package_jobber_part_xref" Width="1.5" PointX="16.25" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.client" Width="1.5" PointX="3" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.client_auto_make_xref" Width="1.5" PointX="5.25" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.client_jobber_company_xref" Width="1.5" PointX="8.25" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.client_jobber_company_xref_jobber_part_xref" Width="1.5" PointX="10.5" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.client_rates" Width="1.5" PointX="5.25" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.custom_category" Width="1.5" PointX="5.25" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.custom_company" Width="1.5" PointX="5.25" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.custom_image" Width="1.5" PointX="7.5" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.custom_index" Width="1.5" PointX="5.25" PointY="34.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.custom_part" Width="1.5" PointX="9.75" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.custom_subcategory" Width="1.5" PointX="7.5" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.image" Width="1.5" PointX="6" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.jobber_catalog" Width="1.5" PointX="6" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.jobber_category" Width="1.5" PointX="3.75" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.jobber_company" Width="1.5" PointX="6" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.jobber_index" Width="1.5" PointX="3.75" PointY="42.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.jobber_part" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.jobber_subcategory" Width="1.5" PointX="6" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.province" Width="1.5" PointX="0.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.quote" Width="1.5" PointX="11.25" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.quote_custom_part" Width="1.5" PointX="13.5" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.quote_jobber_part_xref" Width="1.5" PointX="14.5" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.User" Width="1.5" PointX="6" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.users_client_xref" Width="1.5" PointX="8.25" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.users_jobber_company_xref" Width="1.5" PointX="8.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.webpages_Membership" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.webpages_Roles" Width="1.5" PointX="3.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.year" Width="1.5" PointX="3.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.vw_part_extended" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="aodModel.vw_part_extended_no_auto" Width="1.5" PointX="10.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="aodModel.FK_auto_model_auto_category" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_auto_model_auto_make" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_client_auto_make_xref_auto_make" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_auto_model_auto_year" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_auto_package_auto_model" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_auto_package_custom_part_xref_auto_package" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_auto_package_jobber_part_xref_auto_package" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_quote_auto_package" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_auto_package_custom_part_xref_custom_part" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_auto_package_jobber_part_xref_jobber_part" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_client_auto_make_xref_client" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_client_jobber_company_xref_client" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_client_province" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_client_rates_client" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_custom_category_client" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_custom_company_client" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_custom_index_client" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_custom_part_client" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_custom_subcategory_client" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_quote_client" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_users_client_xref_client" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_client_jobber_company_xref_jobber_company" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_client_jobber_company_xref_jobber_part_xref_client_jobber_company_xref" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_client_jobber_company_xref_jobber_part_xref_jobber_part" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_custom_subcategory_custom_category" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_custom_subcategory_custom_company" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_custom_part_custom_image" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_custom_subcategory_custom_index" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_custom_part_custom_subcategory" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_quote_jobber_part_xref_custom_part" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_jobber_part_image" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_jobber_catalog_year" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_jobber_part_jobber_catalog" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_jobber_subcategory_jobber_category" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_jobber_subcategory_jobber_company" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_users_jobber_company_xref_jobber_company" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_jobber_subcategory_jobber_index" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_jobber_part_jobber_subcategory" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_quote_jobber_part_xref_jobber_part" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_quote_custom_part_quote" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_quote_jobber_part_xref_quote" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.FK_users_client_xref_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="aodModel.webpages_UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
